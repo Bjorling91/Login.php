@@ -1,0 +1,102 @@
+* { 
+	font-family: Calibri;
+}
+
+td {
+	text-align: center;
+	padding: 5px 5px 5px 5px;
+}
+
+#sitewrapper {
+	width: 80%;
+	background-color: lightblue;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 500px;
+	min-height: 300px;
+	max-width: 800px;
+	margin-top: 5%;
+	padding: 1%;
+	border-top-left-radius: 2em;
+	border-bottom-right-radius: 2em;
+	/*box-shadow:20px 20px 50px 20px pink;*/ 
+}
+
+h1 {
+	font-size: 3em;
+}
+img {
+	border-top-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	box-shadow:5px 5px 12px 5px pink; 
+}
+
+p{ 
+	font-size: 1em; 
+}
+
+span {
+	font-style: oblique;
+	font-size: 1.5em;
+}
+
+footer, header {
+	font-size: 1em;
+	margin-top: 1em;
+	text-align: center;
+}
+
+header {
+	text-align: left;
+	padding-left: 2em;
+}
+
+a {
+	padding-left: 0.5em;
+}
+
+#myId { 
+	font-size: 1.2em; 
+}
+
+.borderClass {
+	border-width: 0.1em;
+	border-color: black;
+	border-style: solid;
+	margin-bottom: 1em;
+	margin-top: 0.3em;
+	padding-left: 0.3em;
+	padding-bottom: 1em;
+	border-top-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+	box-shadow:5px 5px 12px 5px gray; 
+}
+
+input {
+	margin-bottom: 0.1em;
+}
+
+input[type="submit"], input[type="reset"], input[type="button"] { 
+	font-size: 1em; 
+}
+
+input:disabled { 
+	background-color: gray;
+}
+
+.imgAnimation{
+	border: gray solid 0.1em;
+	width: 10%;
+	height: 10%; 
+	box-shadow: 0.3em 0.3em 0.3em lightgray;
+}
+
+.imgAnimation:hover {
+	-moz-transition: all 0.25s linear;
+	transform: scale(5);
+	opacity: 0.6;
+}
+
+.backgroundGradient {
+     background-image: linear-gradient(to right, gray, pink);
+}
